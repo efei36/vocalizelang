@@ -1,0 +1,51 @@
+body{
+    font-family: ubuntu;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+}
+
+.logLI {
+    padding: 20px;
+}
+
+.plusMinus {
+    width: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #1AB090;
+    cursor:  pointer;
+    text-align: right;
+}
+
+.deleteX {
+    
+    margin-right: 10px;
+    font-size: 14px;
+    color: #025593;
+    cursor:  pointer;
+    position: absolute;
+    right: 25px;
+    
+}
+
+.update {
+    width: 100px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #025593;
+    cursor:  pointer;
+}
+
+
+.right {
+    padding-right: 10px;
+    font-size: 20px;
+    color: rgba(26, 25, 25, 0.879);  
+}
+

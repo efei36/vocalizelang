@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Vocalizelang - Listener</title>
+	<meta name="Keywords" content="recorder,speech-to-text,text-to-speech">
+	<meta name="description" content="Improve speech skills, assist in any non-English speaker and English speaker's pronunciation.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+
+	<style>
+		.no-browser-support {
+			display: none;
+			font-size: 1.2rem;
+			color: #0000FF;
+			margin-top: 35px;
+		}
+	</style>
+</head>
+<body>
+	<!--navbar-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	  <div class="container-fluid">
+		<a class="navbar-brand" href="index.html">Vocalizelang</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		  <div class="navbar-nav">
+			<a class="nav-link" href="trainer.html">Trainer</a>
+			<a class="nav-link disabled" href="listen.html">Listener</a>
+			<a class="nav-link" href="recorder.html">Recorder</a>
+		  </div>
+		</div>
+	  </div>
+	</nav>
+	<br>
+	<br>
+
+	<div class="container">
+		<h3 class="no-browser-support">The Listener is not supported on your browser. Please Try This In Google Chrome.</h3>
+
+		<div class="app">
+			<div class="row">
+				<div class="input-single">
+					<textarea id="speech-to-text" placeholder="Your text will be displayed here." class="form-control"  rows="6"></textarea>
+				</div>
+			</div>
+			<div class="row">
+				<p><small><i>*Only Supported on Chrome browser on Windows PC.</i></small></p>
+			</div>
+			
+			<br>
+			<div class="col text-center">
+				<input type="image" id="mic-image" src="image/microphone.png" width="90" height="90" value="Record" onclick="micImageOnClick()" alt="Record" />
+			</div>
+			<div class="row">
+				<p class="text-center" id="mic-text">Click above to speak to the listener</p>
+			</div>
+			
+			<div class="row">
+				<p class="text-center" id="info-message"></p>
+			</div>			
+			
+		</div>
+
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/speechToText.js"></script>
+
+</body>
+</html>
+
+
