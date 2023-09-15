@@ -26,7 +26,7 @@ Google Chrome
 - Click the microphone button on top to record your own voice speak the sentence, click again when done recording
 - Type the sentence into the text box at the bottom and click the speaker button to have the machine speak the sentence
 - Compare your voice cs the machine's to measure your pronunciation's accuracy<br />
-    ![]()
+    ![](https://github.com/efei36/vocalizelang/blob/main/ExampleImages/trainer_usage.png)
 
 ### Listener
 #### Test your pronunciation
@@ -34,13 +34,13 @@ Google Chrome
 - Click the microphone button and begin speaking
 - The Listener will attempt to recognize the words you are speaking and type them; if you are mispronounce something, the Listener will display it in the text
 - Click the stop button once done recording<br />
-    ![]()
+    ![](https://github.com/efei36/vocalizelang/blob/main/ExampleImages/listener_usage.png)
 
 ### Recorder
 #### Record your voice for future use
 - Click the microphone button and record your own voice
 - Once finished, stop recording, then choose to either save or delete the generated WAV file<br />
-    ![]()
+    ![](https://github.com/efei36/vocalizelang/blob/main/ExampleImages/recorder_usage.png)
 
 ## References
 - Wavesurfer: https://wavesurfer-js.org
